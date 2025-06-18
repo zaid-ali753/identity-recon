@@ -28,7 +28,9 @@ git clone <repo-url>
 cd <repo-directory>
 
 python -m venv venv
-source venv/bin/activate  # Linux/macOS
+
+source venv/bin/activate #MacOS/Linux
+
 venv\Scripts\activate     # Windows
 
 pip install -r requirements.txt
